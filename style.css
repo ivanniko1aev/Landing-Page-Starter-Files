@@ -1,8 +1,60 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
-
-
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url("CityScape.jpeg");
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-wdith: 600px;
+	margin: 0 auto; /* Centers on PAGE, vertically */
+	text-align: center;
+	padding-bottom: 20%;
+}
+.content h1 {
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 900%;
+	font-weight: 500px;
+	color: #FFF;
+	line-height: 70%;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 130%;
+	font-weight: 400;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid #f2f2f2;
+	padding: 10px 20px;
+	border-radius: 9px;
+	transition: all .05s;
+}
+.btn:hover {
+	color: #bfbfbf;
+	border: solid #bfbfbf;
+}
+p {
+	font-size: 150%;
+	line-height: 120%;
+	font-family: sans-serif;
+}
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
 
@@ -11,5 +63,5 @@
 
 }
 @media screen and (max-width: 480px) {
-	
+
 }
